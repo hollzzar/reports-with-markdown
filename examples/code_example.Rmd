@@ -1,0 +1,12 @@
+```{r setup, include=FALSE, message=FALSE, warning=FALSE}
+## R setup ##
+
+# knitr setup
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+
+# Package list
+pkg_list <- c("plyr","tidyverse", "ggplot2", "kableExtra", "psych")
+
+# Load packages
+pacman::p_load(pkg_list, character.only = TRUE)
+```

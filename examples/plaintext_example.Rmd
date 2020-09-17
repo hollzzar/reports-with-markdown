@@ -1,0 +1,5 @@
+# Parts of a document
+
+1. YAML header
+1. Markdown
+1. Code chunks

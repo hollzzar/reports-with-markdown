@@ -1,0 +1,2 @@
+```{r child = 'code/load_data.Rmd'}
+```

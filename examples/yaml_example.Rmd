@@ -1,0 +1,9 @@
+---
+title: Using R Markdown for internal research reports
+author: Holly Zaharchuk
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output: 
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+---

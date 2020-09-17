@@ -1,0 +1,23 @@
+---
+citeproc: no
+output:
+  bookdown::word_document2:
+    reference_docx: /path/word_template.docx
+    pandoc_args: [
+      "--lua-filter", "/path/multiple-bibliographies.lua",
+      "--lua-filter", "/Library/Frameworks/R.framework/Versions/3.5/Resources/library/rmdfiltr/replace_ampersands.lua"
+      ]
+bibliography_main: bib_main.bib
+bibliography_other: bib_other.bib
+csl: /path/apa7.csl
+---
+
+# Main references
+
+::: {#refs_main}
+:::
+
+# Other references
+
+::: {#refs_other}
+:::

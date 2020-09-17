@@ -1,0 +1,3 @@
+So I can report that there are `r species_count` species without typing out the number itself.
+
+Or I can reference the variable with the exact species names: `r species`.
